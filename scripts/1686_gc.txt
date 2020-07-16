@@ -1,0 +1,219 @@
+[0.825s][info][gc] Using G1
+[2.210s][info][gc] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 104M->9M(2048M) 11.063ms
+[3.003s][info][gc] GC(1) Pause Young (Normal) (G1 Evacuation Pause) 108M->14M(2048M) 12.416ms
+Thread pools created with 200
+Thread created
+[3.243s][info][gc] GC(2) Pause Young (Concurrent Start) (Metadata GC Threshold) 114M->15M(2048M) 11.890ms
+[3.243s][info][gc] GC(3) Concurrent Cycle
+[3.258s][info][gc] GC(3) Pause Remark 16M->16M(2048M) 6.351ms
+[3.260s][info][gc] GC(3) Pause Cleanup 17M->17M(2048M) 0.496ms
+[3.264s][info][gc] GC(3) Concurrent Cycle 20.407ms
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 2.2.5.RELEASE
+
+
+[4.153s][info][gc] GC(4) Pause Young (Normal) (G1 Evacuation Pause) 210M->17M(2048M) 15.759ms
+2020-07-16 18:21:13.142  INFO 18088 --- [           main] o.s.s.petclinic.PetClinicApplication     : Starting PetClinicApplication v2.2.0.BUILD-SNAPSHOT on richard with PID 18088 (/home/richard/datadog/spring-petclinic/target/spring-petclinic-2.2.0.BUILD-SNAPSHOT.jar started by richard in /home/richard/datadog/spring-petclinic/scripts)
+2020-07-16 18:21:13.146  INFO 18088 --- [           main] o.s.s.petclinic.PetClinicApplication     : No active profile set, falling back to default profiles: default
+[4.705s][info][gc] GC(5) Pause Young (Concurrent Start) (Metadata GC Threshold) 207M->19M(2048M) 27.776ms
+[4.705s][info][gc] GC(6) Concurrent Cycle
+[4.725s][info][gc] GC(6) Pause Remark 21M->21M(2048M) 9.166ms
+[4.727s][info][gc] GC(6) Pause Cleanup 21M->21M(2048M) 0.375ms
+[4.732s][info][gc] GC(6) Concurrent Cycle 27.057ms
+2020-07-16 18:21:14.808  INFO 18088 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-16 18:21:14.941  INFO 18088 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 115ms. Found 4 JPA repository interfaces.
+[6.446s][info][gc] GC(7) Pause Young (Normal) (G1 Evacuation Pause) 270M->23M(2048M) 28.291ms
+2020-07-16 18:21:16.392  INFO 18088 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-16 18:21:16.423  INFO 18088 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-16 18:21:16.423  INFO 18088 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-07-16 18:21:16.659  INFO 18088 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-16 18:21:16.659  INFO 18088 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3462 ms
+2020-07-16 18:21:17.462  INFO 18088 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'vets' created in EhcacheManager.
+2020-07-16 18:21:17.495  INFO 18088 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets
+2020-07-16 18:21:17.507  INFO 18088 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets
+2020-07-16 18:21:17.610  INFO 18088 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-16 18:21:18.051  INFO 18088 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+[9.831s][info][gc] GC(8) Pause Young (Normal) (G1 Evacuation Pause) 421M->32M(2048M) 31.650ms
+[11.296s][info][gc] GC(9) Pause Young (Concurrent Start) (Metadata GC Threshold) 268M->35M(2048M) 40.351ms
+[11.296s][info][gc] GC(10) Concurrent Cycle
+[11.337s][info][gc] GC(10) Pause Remark 41M->41M(2048M) 18.186ms
+[11.343s][info][gc] GC(10) Pause Cleanup 41M->41M(2048M) 0.419ms
+[11.347s][info][gc] GC(10) Concurrent Cycle 51.737ms
+2020-07-16 18:21:20.338  INFO 18088 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-16 18:21:20.575  INFO 18088 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-16 18:21:20.836  INFO 18088 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-16 18:21:21.294  INFO 18088 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-16 18:21:22.948  INFO 18088 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-16 18:21:22.969  INFO 18088 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[14.694s][info][gc] GC(11) Pause Young (Normal) (G1 Evacuation Pause) 642M->39M(2048M) 40.506ms
+2020-07-16 18:21:24.697  INFO 18088 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-16 18:21:26.009  INFO 18088 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/manage'
+2020-07-16 18:21:26.139  INFO 18088 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-16 18:21:26.142  INFO 18088 --- [           main] o.s.s.petclinic.PetClinicApplication     : Started PetClinicApplication in 13.674 seconds (JVM running for 17.167)
+2020-07-16 18:21:26.334  INFO 18088 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-16 18:21:26.335  INFO 18088 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-16 18:21:26.360  INFO 18088 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
+[21.485s][info][gc] GC(12) Pause Young (Normal) (G1 Evacuation Pause) 1236M->55M(2048M) 53.478ms
+[23.861s][info][gc] GC(13) Pause Young (Normal) (G1 Evacuation Pause) 1236M->66M(2048M) 47.294ms
+[24.646s][info][gc] GC(14) Pause Young (Normal) (G1 Evacuation Pause) 514M->61M(2048M) 40.715ms
+[26.578s][info][gc] GC(15) Pause Young (Normal) (G1 Evacuation Pause) 1268M->68M(2048M) 32.441ms
+[28.512s][info][gc] GC(16) Pause Young (Normal) (G1 Evacuation Pause) 1267M->68M(2048M) 29.857ms
+[30.426s][info][gc] GC(17) Pause Young (Normal) (G1 Evacuation Pause) 1268M->65M(2048M) 29.086ms
+[32.330s][info][gc] GC(18) Pause Young (Normal) (G1 Evacuation Pause) 1267M->66M(2048M) 28.921ms
+[34.237s][info][gc] GC(19) Pause Young (Normal) (G1 Evacuation Pause) 1268M->66M(2048M) 28.604ms
+[36.201s][info][gc] GC(20) Pause Young (Normal) (G1 Evacuation Pause) 1267M->66M(2048M) 28.592ms
+[38.094s][info][gc] GC(21) Pause Young (Normal) (G1 Evacuation Pause) 1267M->70M(2048M) 31.154ms
+[39.968s][info][gc] GC(22) Pause Young (Normal) (G1 Evacuation Pause) 1268M->69M(2048M) 30.359ms
+[41.876s][info][gc] GC(23) Pause Young (Normal) (G1 Evacuation Pause) 1268M->69M(2048M) 30.610ms
+[43.743s][info][gc] GC(24) Pause Young (Normal) (G1 Evacuation Pause) 1268M->66M(2048M) 28.318ms
+[45.659s][info][gc] GC(25) Pause Young (Normal) (G1 Evacuation Pause) 1268M->66M(2048M) 28.786ms
+[47.534s][info][gc] GC(26) Pause Young (Normal) (G1 Evacuation Pause) 1268M->66M(2048M) 28.385ms
+[49.401s][info][gc] GC(27) Pause Young (Normal) (G1 Evacuation Pause) 1267M->66M(2048M) 28.833ms
+[51.303s][info][gc] GC(28) Pause Young (Normal) (G1 Evacuation Pause) 1276M->66M(2048M) 21.764ms
+[53.201s][info][gc] GC(29) Pause Young (Normal) (G1 Evacuation Pause) 1277M->70M(2048M) 23.849ms
+[55.114s][info][gc] GC(30) Pause Young (Normal) (G1 Evacuation Pause) 1277M->70M(2048M) 24.143ms
+[57.030s][info][gc] GC(31) Pause Young (Normal) (G1 Evacuation Pause) 1277M->70M(2048M) 22.058ms
+[58.945s][info][gc] GC(32) Pause Young (Normal) (G1 Evacuation Pause) 1278M->70M(2048M) 21.744ms
+[60.913s][info][gc] GC(33) Pause Young (Normal) (G1 Evacuation Pause) 1278M->68M(2048M) 20.793ms
+[62.867s][info][gc] GC(34) Pause Young (Normal) (G1 Evacuation Pause) 1277M->66M(2048M) 20.546ms
+[64.827s][info][gc] GC(35) Pause Young (Normal) (G1 Evacuation Pause) 1277M->66M(2048M) 20.161ms
+[66.807s][info][gc] GC(36) Pause Young (Normal) (G1 Evacuation Pause) 1277M->67M(2048M) 19.754ms
+[68.798s][info][gc] GC(37) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 23.614ms
+[70.798s][info][gc] GC(38) Pause Young (Normal) (G1 Evacuation Pause) 1277M->66M(2048M) 20.624ms
+[72.766s][info][gc] GC(39) Pause Young (Normal) (G1 Evacuation Pause) 1277M->66M(2048M) 20.652ms
+[74.736s][info][gc] GC(40) Pause Young (Normal) (G1 Evacuation Pause) 1277M->66M(2048M) 20.822ms
+[76.728s][info][gc] GC(41) Pause Young (Normal) (G1 Evacuation Pause) 1277M->71M(2048M) 22.852ms
+[78.676s][info][gc] GC(42) Pause Young (Normal) (G1 Evacuation Pause) 1278M->70M(2048M) 22.060ms
+[80.624s][info][gc] GC(43) Pause Young (Normal) (G1 Evacuation Pause) 1277M->70M(2048M) 21.958ms
+[82.633s][info][gc] GC(44) Pause Young (Normal) (G1 Evacuation Pause) 1277M->70M(2048M) 23.799ms
+[84.665s][info][gc] GC(45) Pause Young (Normal) (G1 Evacuation Pause) 1278M->70M(2048M) 21.449ms
+[86.650s][info][gc] GC(46) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.459ms
+[88.658s][info][gc] GC(47) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.658ms
+[90.634s][info][gc] GC(48) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 21.046ms
+[92.639s][info][gc] GC(49) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 21.753ms
+[94.668s][info][gc] GC(50) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 25.047ms
+[96.760s][info][gc] GC(51) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.527ms
+[98.731s][info][gc] GC(52) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.768ms
+[100.719s][info][gc] GC(53) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.712ms
+[102.701s][info][gc] GC(54) Pause Young (Normal) (G1 Evacuation Pause) 1278M->71M(2048M) 22.861ms
+[104.685s][info][gc] GC(55) Pause Young (Normal) (G1 Evacuation Pause) 1278M->71M(2048M) 22.509ms
+[106.657s][info][gc] GC(56) Pause Young (Normal) (G1 Evacuation Pause) 1278M->70M(2048M) 21.724ms
+[108.621s][info][gc] GC(57) Pause Young (Normal) (G1 Evacuation Pause) 1278M->69M(2048M) 21.118ms
+[110.544s][info][gc] GC(58) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.796ms
+[112.537s][info][gc] GC(59) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.437ms
+[114.566s][info][gc] GC(60) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 31.624ms
+[116.578s][info][gc] GC(61) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.587ms
+[118.555s][info][gc] GC(62) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 19.912ms
+[120.540s][info][gc] GC(63) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.376ms
+[122.539s][info][gc] GC(64) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.697ms
+[124.530s][info][gc] GC(65) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.695ms
+[126.496s][info][gc] GC(66) Pause Young (Normal) (G1 Evacuation Pause) 1278M->71M(2048M) 22.730ms
+[128.446s][info][gc] GC(67) Pause Young (Normal) (G1 Evacuation Pause) 1278M->70M(2048M) 22.097ms
+[130.400s][info][gc] GC(68) Pause Young (Normal) (G1 Evacuation Pause) 1278M->71M(2048M) 22.233ms
+[132.456s][info][gc] GC(69) Pause Young (Normal) (G1 Evacuation Pause) 1278M->70M(2048M) 21.778ms
+[134.478s][info][gc] GC(70) Pause Young (Normal) (G1 Evacuation Pause) 1278M->69M(2048M) 34.255ms
+[136.450s][info][gc] GC(71) Pause Young (Normal) (G1 Evacuation Pause) 1277M->66M(2048M) 19.419ms
+[138.392s][info][gc] GC(72) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.747ms
+[140.363s][info][gc] GC(73) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.629ms
+[142.360s][info][gc] GC(74) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.750ms
+[144.338s][info][gc] GC(75) Pause Young (Normal) (G1 Evacuation Pause) 1278M->71M(2048M) 22.813ms
+[146.331s][info][gc] GC(76) Pause Young (Normal) (G1 Evacuation Pause) 1277M->71M(2048M) 22.041ms
+[148.317s][info][gc] GC(77) Pause Young (Normal) (G1 Evacuation Pause) 1278M->71M(2048M) 33.393ms
+[150.348s][info][gc] GC(78) Pause Young (Normal) (G1 Evacuation Pause) 1278M->70M(2048M) 21.760ms
+[152.338s][info][gc] GC(79) Pause Young (Normal) (G1 Evacuation Pause) 1278M->70M(2048M) 21.920ms
+[154.292s][info][gc] GC(80) Pause Young (Normal) (G1 Evacuation Pause) 1278M->65M(2048M) 18.677ms
+[156.234s][info][gc] GC(81) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.663ms
+[158.197s][info][gc] GC(82) Pause Young (Normal) (G1 Evacuation Pause) 1277M->67M(2048M) 20.557ms
+[160.164s][info][gc] GC(83) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.492ms
+[162.188s][info][gc] GC(84) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.544ms
+[164.180s][info][gc] GC(85) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.896ms
+[166.149s][info][gc] GC(86) Pause Young (Normal) (G1 Evacuation Pause) 1278M->68M(2048M) 20.595ms
+[168.113s][info][gc] GC(87) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.624ms
+[170.081s][info][gc] GC(88) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.741ms
+[172.074s][info][gc] GC(89) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.531ms
+[174.076s][info][gc] GC(90) Pause Young (Normal) (G1 Evacuation Pause) 1278M->71M(2048M) 22.318ms
+[175.857s][info][gc] GC(91) Pause Young (Normal) (G1 Evacuation Pause) 1278M->65M(2048M) 17.256ms
+[177.820s][info][gc] GC(92) Pause Young (Normal) (G1 Evacuation Pause) 1278M->68M(2048M) 20.821ms
+[179.779s][info][gc] GC(93) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 22.607ms
+[181.783s][info][gc] GC(94) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.452ms
+[183.848s][info][gc] GC(95) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 22.401ms
+[185.842s][info][gc] GC(96) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.841ms
+[187.840s][info][gc] GC(97) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 35.341ms
+[189.817s][info][gc] GC(98) Pause Young (Normal) (G1 Evacuation Pause) 1278M->71M(2048M) 22.756ms
+[191.766s][info][gc] GC(99) Pause Young (Normal) (G1 Evacuation Pause) 1278M->70M(2048M) 22.017ms
+[193.739s][info][gc] GC(100) Pause Young (Normal) (G1 Evacuation Pause) 1278M->70M(2048M) 22.045ms
+[195.698s][info][gc] GC(101) Pause Young (Normal) (G1 Evacuation Pause) 1278M->70M(2048M) 21.812ms
+[197.659s][info][gc] GC(102) Pause Young (Normal) (G1 Evacuation Pause) 1278M->70M(2048M) 21.938ms
+[199.590s][info][gc] GC(103) Pause Young (Normal) (G1 Evacuation Pause) 1278M->64M(2048M) 18.038ms
+[201.563s][info][gc] GC(104) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.466ms
+[203.562s][info][gc] GC(105) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.557ms
+[205.519s][info][gc] GC(106) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 22.555ms
+[207.510s][info][gc] GC(107) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.664ms
+[209.459s][info][gc] GC(108) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.565ms
+[211.446s][info][gc] GC(109) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 22.162ms
+[213.420s][info][gc] GC(110) Pause Young (Normal) (G1 Evacuation Pause) 1278M->69M(2048M) 20.684ms
+[215.376s][info][gc] GC(111) Pause Young (Normal) (G1 Evacuation Pause) 1278M->69M(2048M) 21.308ms
+[217.304s][info][gc] GC(112) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.575ms
+[219.267s][info][gc] GC(113) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 22.770ms
+[221.244s][info][gc] GC(114) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.823ms
+[223.206s][info][gc] GC(115) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 19.718ms
+[225.200s][info][gc] GC(116) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.375ms
+[227.165s][info][gc] GC(117) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.613ms
+[229.130s][info][gc] GC(118) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.747ms
+[231.110s][info][gc] GC(119) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.463ms
+[233.081s][info][gc] GC(120) Pause Young (Normal) (G1 Evacuation Pause) 1278M->71M(2048M) 22.497ms
+[235.088s][info][gc] GC(121) Pause Young (Normal) (G1 Evacuation Pause) 1278M->71M(2048M) 22.212ms
+[237.044s][info][gc] GC(122) Pause Young (Normal) (G1 Evacuation Pause) 1278M->71M(2048M) 22.270ms
+[238.978s][info][gc] GC(123) Pause Young (Normal) (G1 Evacuation Pause) 1278M->71M(2048M) 22.217ms
+[240.909s][info][gc] GC(124) Pause Young (Normal) (G1 Evacuation Pause) 1279M->70M(2048M) 21.622ms
+[242.865s][info][gc] GC(125) Pause Young (Normal) (G1 Evacuation Pause) 1278M->66M(2048M) 19.951ms
+[244.894s][info][gc] GC(126) Pause Young (Normal) (G1 Evacuation Pause) 1278M->68M(2048M) 22.714ms
+[246.826s][info][gc] GC(127) Pause Young (Normal) (G1 Evacuation Pause) 1279M->66M(2048M) 18.780ms
+[248.883s][info][gc] GC(128) Pause Young (Normal) (G1 Evacuation Pause) 1278M->68M(2048M) 20.819ms
+[250.845s][info][gc] GC(129) Pause Young (Normal) (G1 Evacuation Pause) 1279M->68M(2048M) 20.749ms
+[252.811s][info][gc] GC(130) Pause Young (Normal) (G1 Evacuation Pause) 1278M->68M(2048M) 20.904ms
+[254.788s][info][gc] GC(131) Pause Young (Normal) (G1 Evacuation Pause) 1279M->67M(2048M) 20.631ms
+[256.754s][info][gc] GC(132) Pause Young (Normal) (G1 Evacuation Pause) 1278M->72M(2048M) 23.214ms
+[258.691s][info][gc] GC(133) Pause Young (Normal) (G1 Evacuation Pause) 1278M->72M(2048M) 22.498ms
+[260.619s][info][gc] GC(134) Pause Young (Normal) (G1 Evacuation Pause) 1279M->72M(2048M) 22.192ms
+[262.554s][info][gc] GC(135) Pause Young (Normal) (G1 Evacuation Pause) 1279M->70M(2048M) 21.910ms
+[264.513s][info][gc] GC(136) Pause Young (Normal) (G1 Evacuation Pause) 1278M->70M(2048M) 21.570ms
+[266.460s][info][gc] GC(137) Pause Young (Normal) (G1 Evacuation Pause) 1278M->66M(2048M) 19.152ms
+[268.387s][info][gc] GC(138) Pause Young (Normal) (G1 Evacuation Pause) 1278M->68M(2048M) 22.239ms
+[270.383s][info][gc] GC(139) Pause Young (Normal) (G1 Evacuation Pause) 1279M->68M(2048M) 22.594ms
+[272.392s][info][gc] GC(140) Pause Young (Normal) (G1 Evacuation Pause) 1279M->67M(2048M) 20.771ms
+[274.440s][info][gc] GC(141) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.418ms
+[276.483s][info][gc] GC(142) Pause Young (Normal) (G1 Evacuation Pause) 1278M->68M(2048M) 21.167ms
+[278.519s][info][gc] GC(143) Pause Young (Normal) (G1 Evacuation Pause) 1279M->68M(2048M) 23.091ms
+[280.507s][info][gc] GC(144) Pause Young (Normal) (G1 Evacuation Pause) 1279M->67M(2048M) 22.012ms
+[282.459s][info][gc] GC(145) Pause Young (Normal) (G1 Evacuation Pause) 1278M->67M(2048M) 20.596ms
+[284.424s][info][gc] GC(146) Pause Young (Normal) (G1 Evacuation Pause) 1278M->68M(2048M) 21.096ms
+[286.435s][info][gc] GC(147) Pause Young (Normal) (G1 Evacuation Pause) 1279M->72M(2048M) 23.396ms
+[288.405s][info][gc] GC(148) Pause Young (Normal) (G1 Evacuation Pause) 1278M->71M(2048M) 22.211ms
+[290.406s][info][gc] GC(149) Pause Young (Normal) (G1 Evacuation Pause) 1279M->72M(2048M) 23.633ms
+[292.407s][info][gc] GC(150) Pause Young (Normal) (G1 Evacuation Pause) 1279M->70M(2048M) 22.172ms
+[294.407s][info][gc] GC(151) Pause Young (Normal) (G1 Evacuation Pause) 1278M->70M(2048M) 22.629ms
+[296.466s][info][gc] GC(152) Pause Young (Normal) (G1 Evacuation Pause) 1279M->70M(2048M) 22.391ms
+[298.488s][info][gc] GC(153) Pause Young (Normal) (G1 Evacuation Pause) 1279M->68M(2048M) 23.118ms
+[300.520s][info][gc] GC(154) Pause Young (Normal) (G1 Evacuation Pause) 1279M->68M(2048M) 20.971ms
+[302.593s][info][gc] GC(155) Pause Young (Normal) (G1 Evacuation Pause) 1279M->68M(2048M) 20.425ms
+[304.678s][info][gc] GC(156) Pause Young (Normal) (G1 Evacuation Pause) 1279M->68M(2048M) 20.625ms
+[306.730s][info][gc] GC(157) Pause Young (Normal) (G1 Evacuation Pause) 1279M->68M(2048M) 20.511ms
+[308.758s][info][gc] GC(158) Pause Young (Normal) (G1 Evacuation Pause) 1279M->68M(2048M) 19.932ms
+2020-07-16 18:26:19.540  INFO 18088 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-16 18:26:19.544  INFO 18088 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 18:26:19.552  INFO 18088 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-16 18:26:19.565  INFO 18088 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-16 18:26:19.572  INFO 18088 --- [extShutdownHook] org.ehcache.core.EhcacheManager          : Cache 'vets' removed from EhcacheManager.
