@@ -1,4 +1,4 @@
-Thread pools created with 200
+Thread pools created with 4
 Thread created
 
 
@@ -16,35 +16,35 @@ Thread created
 :: Built with Spring Boot :: 2.2.5.RELEASE
 
 
-2020-07-14 10:06:13.533  INFO 32696 --- [           main] o.s.s.petclinic.PetClinicApplication     : Starting PetClinicApplication v2.2.0.BUILD-SNAPSHOT on richard with PID 32696 (/home/richard/datadog/spring-petclinic/target/spring-petclinic-2.2.0.BUILD-SNAPSHOT.jar started by richard in /home/richard/datadog/spring-petclinic/scripts)
-2020-07-14 10:06:13.539  INFO 32696 --- [           main] o.s.s.petclinic.PetClinicApplication     : No active profile set, falling back to default profiles: default
-2020-07-14 10:06:15.022  INFO 32696 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2020-07-14 10:06:15.147  INFO 32696 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111ms. Found 4 JPA repository interfaces.
-2020-07-14 10:06:16.272  INFO 32696 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-07-14 10:06:16.294  INFO 32696 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-07-14 10:06:16.295  INFO 32696 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-07-14 10:06:16.478  INFO 32696 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-07-14 10:06:16.478  INFO 32696 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2873 ms
-2020-07-14 10:06:17.188  INFO 32696 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'vets' created in EhcacheManager.
-2020-07-14 10:06:17.219  INFO 32696 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets
-2020-07-14 10:06:17.228  INFO 32696 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets
-2020-07-14 10:06:17.314  INFO 32696 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-07-14 10:06:17.703  INFO 32696 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-07-14 10:06:19.730  INFO 32696 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-07-14 10:06:19.989  INFO 32696 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
-2020-07-14 10:06:20.218  INFO 32696 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-07-14 10:06:20.651  INFO 32696 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-07-14 10:06:22.274  INFO 32696 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-07-14 10:06:22.291  INFO 32696 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-07-14 10:06:24.097  INFO 32696 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-07-14 10:06:25.520  INFO 32696 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/manage'
-2020-07-14 10:06:25.676  INFO 32696 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-07-14 10:06:25.679  INFO 32696 --- [           main] o.s.s.petclinic.PetClinicApplication     : Started PetClinicApplication in 12.862 seconds (JVM running for 16.329)
-2020-07-14 10:06:25.821  INFO 32696 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-07-14 10:06:25.821  INFO 32696 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-07-14 10:06:25.838  INFO 32696 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
-2020-07-14 10:12:23.562  INFO 32696 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-07-14 10:12:23.563  INFO 32696 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2020-07-14 10:12:23.566  INFO 32696 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2020-07-14 10:12:23.571  INFO 32696 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2020-07-14 10:12:23.578  INFO 32696 --- [extShutdownHook] org.ehcache.core.EhcacheManager          : Cache 'vets' removed from EhcacheManager.
+2020-12-14 17:31:56.348  INFO 25151 --- [           main] o.s.s.petclinic.PetClinicApplication     : Starting PetClinicApplication v2.2.0.BUILD-SNAPSHOT on richard with PID 25151 (/home/richard/datadog/spring-petclinic/target/spring-petclinic-2.2.0.BUILD-SNAPSHOT.jar started by richard in /home/richard/datadog/spring-petclinic/scripts)
+2020-12-14 17:31:56.354  INFO 25151 --- [           main] o.s.s.petclinic.PetClinicApplication     : No active profile set, falling back to default profiles: default
+2020-12-14 17:31:57.916  INFO 25151 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-14 17:31:58.040  INFO 25151 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 112ms. Found 4 JPA repository interfaces.
+2020-12-14 17:31:59.140  INFO 25151 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-14 17:31:59.167  INFO 25151 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-14 17:31:59.167  INFO 25151 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-12-14 17:31:59.345  INFO 25151 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-14 17:31:59.346  INFO 25151 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2933 ms
+2020-12-14 17:32:00.061  INFO 25151 --- [           main] org.ehcache.core.EhcacheManager          : Cache 'vets' created in EhcacheManager.
+2020-12-14 17:32:00.098  INFO 25151 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets
+2020-12-14 17:32:00.107  INFO 25151 --- [           main] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets
+2020-12-14 17:32:00.193  INFO 25151 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-14 17:32:00.619  INFO 25151 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-14 17:32:02.678  INFO 25151 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-14 17:32:02.926  INFO 25151 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-12-14 17:32:03.192  INFO 25151 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-14 17:32:03.694  INFO 25151 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-14 17:32:05.676  INFO 25151 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-14 17:32:05.696  INFO 25151 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-14 17:32:07.425  INFO 25151 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-14 17:32:08.782  INFO 25151 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/manage'
+2020-12-14 17:32:08.906  INFO 25151 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-14 17:32:08.909  INFO 25151 --- [           main] o.s.s.petclinic.PetClinicApplication     : Started PetClinicApplication in 13.455 seconds (JVM running for 16.122)
+2020-12-14 17:32:09.057  INFO 25151 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-14 17:32:09.058  INFO 25151 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-14 17:32:09.075  INFO 25151 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2020-12-14 17:39:47.855  INFO 25151 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-14 17:39:47.858  INFO 25151 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-14 17:39:47.860  INFO 25151 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-14 17:39:47.871  INFO 25151 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-12-14 17:39:47.878  INFO 25151 --- [extShutdownHook] org.ehcache.core.EhcacheManager          : Cache 'vets' removed from EhcacheManager.
