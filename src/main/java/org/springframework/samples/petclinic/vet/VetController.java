@@ -20,6 +20,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.Map;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ThreadLocalRandom;
 
 /**
  * @author Juergen Hoeller
@@ -43,6 +45,38 @@ class VetController {
 		Vets vets = new Vets();
 		vets.getVetList().addAll(this.vets.findAll());
 		model.put("vets", vets);
+		return "vets/vetList";
+	}
+
+	@GetMapping("/vets-async.html")
+	public String showVetListAsync(Map<String, Object> model) {
+		// Here we are returning an object of type 'Vets' rather than a collection of Vet
+		// objects so it is simpler for Object-Xml mapping
+		CompletableFuture.supplyAsync(this.vets::findAll).thenApplyAsync(vets -> {
+			Vets toRender = new Vets();
+			toRender.getVetList().addAll(vets);
+			return toRender;
+		}).thenAccept(vets -> model.put("vets", vets)).join();
+		return "vets/vetList";
+	}
+
+	@GetMapping("/vets-async-delay.html")
+	public String showVetListAsyncDelay(Map<String, Object> model) {
+		// Here we are returning an object of type 'Vets' rather than a collection of Vet
+		// objects so it is simpler for Object-Xml mapping
+		CompletableFuture.supplyAsync(this.vets::findAll).thenApplyAsync(vets -> {
+			Vets toRender = new Vets();
+			toRender.getVetList().addAll(vets);
+			return toRender;
+		}).thenApplyAsync(vets -> {
+			try {
+				Thread.sleep(ThreadLocalRandom.current().nextInt(100));
+			}
+			catch (InterruptedException e) {
+
+			}
+			return vets;
+		}).thenAccept(vets -> model.put("vets", vets)).join();
 		return "vets/vetList";
 	}
 
